@@ -25,4 +25,10 @@ public class EvenOddTest {
     public void testNegativeNumber() {
         assertEquals("Odd", EvenOdd.checkEvenOdd(-5));
     }
+
+@Test
+	public void testInvalidExpectedResult() {
+    	assertEquals("Odd", EvenOdd.checkEvenOdd(8));
+}
+
 }
